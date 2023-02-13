@@ -1,0 +1,37 @@
+ul {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  right: -150px;
+
+  /*varför har jag skrivit UL och inte OL som Alrik?*/
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  background-color: grey;
+  padding: 20px;
+  font-style: italic;
+  border: 8px solid purple;
+  border-color: blue; /*denna border är prioriterad*/
+  border-width: 5px;
+  border-style: dotted;
+}
+
+p {
+  color: rgb(17, 165, 150);
+  font-size: 30px;
+}
+
+div{
+    background-image: url("/Bilder/357c2bc1f82f128b88e2f4d96b9a68cc.png");
+    background-size: cover;
+}
+
+img {
+  width: 500px;
+}
